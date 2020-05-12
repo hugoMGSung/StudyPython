@@ -24,7 +24,7 @@ net.getLayer(net.getLayerId('class8_ab')).blobs = [pts_in_hull]
 # 스케일 레이어가 OpenCV dnn 모듈에서 작동하지 않는 듯.. conv8_313_rh 레이어에 2.606을 수동으로 채워야 함
 net.getLayer(net.getLayerId('conv8_313_rh')).blobs = [np.full((1, 313), 2.606, np.float32)]
 
-img_path = './img/sample_23.jpg'
+img_path = './img/parasite_01.jpg'
 img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
 img_input = img.copy()
 
