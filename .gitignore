@@ -2,3 +2,5 @@ models/colorization_deploy_v2.prototxt
 models/colorization_release_v2_norebal.caffemodel
 models/colorization_release_v2.caffemodel
 final_test.py
+colorize_video_app.py
+data/Ed_Wood_1994.mp4
