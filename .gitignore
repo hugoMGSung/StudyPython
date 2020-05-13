@@ -1,3 +1,4 @@
 models/colorization_deploy_v2.prototxt
 models/colorization_release_v2_norebal.caffemodel
 models/colorization_release_v2.caffemodel
+final_test.py
