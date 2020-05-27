@@ -1,6 +1,6 @@
 class Student:
     count = 0
-    __radius = 5    
+    __radius = 0    
 
     def __init__(self, name, korean, math, english, science):
         self.name = name
@@ -18,8 +18,8 @@ class Student:
     
     @radius.setter
     def radius(self, value):
-        if value <= 0:
-            raise TypeError("양수")
+        # if value <= 0:
+        #     raise TypeError("양수")
         self.__radius = value
 
     def __del__(self):
